@@ -1,106 +1,164 @@
-/* Style général */
+/* Styles généraux pour une apparence élégante et moderne */
 body {
-  font-family: 'Georgia', serif;
-  line-height: 1.6;
-  background-color: #f4f1ea; /* Couleur parchemin */
-  color: #333;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
   margin: 0;
   padding: 0;
+  background: #F8F4F1; /* Blanc cassé pour le fond */
+  color: #333333; /* Gris anthracite pour le texte */
 }
 
-/* En-tête */
+/* Style pour le header */
 header {
-  background-color: #5a3e2b; /* Couleur sombre évoquant un cuir vieilli */
-  color: #fff;
-  padding: 20px 10px;
+  background: #6A7F49; /* Vert olive pour la couleur principale */
+  color: #ffffff; /* Texte blanc pour contraster avec le vert */
   text-align: center;
-  border-bottom: 5px solid #2e2115; /* Accent antique */
+  padding: 60px 20px;
+  border-bottom: 10px solid #A29B9B; /* Gris chaud pour la bordure */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
 }
 
-header h1 {
-  font-size: 2.5rem;
+header h1#title {
+  font-size: 3rem;
+  font-weight: 700;
   margin: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-header p {
+header p#intro {
+  font-size: 1.3rem;
+  margin: 20px 0;
   font-style: italic;
-  margin: 10px 0 0;
+  color: #F4A261; /* Corail pâle pour un accent lumineux */
 }
 
-/* Sections principales */
+header button {
+  background: #A29B9B; /* Gris chaud pour les boutons */
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  margin: 20px 10px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Ombre plus marquée */
+}
+
+header button:hover {
+  background: #B4A79D; /* Gris légèrement plus foncé pour le hover */
+  transform: translateY(-2px);
+}
+
+/* Style pour le main */
 main {
-  padding: 20px;
-  max-width: 800px;
-  margin: 20px auto;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+  padding: 50px 30px;
+  max-width: 960px;
+  margin: 40px auto;
+  background: #ffffff; /* Arrière-plan blanc pour le contenu principal */
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Titres des sections */
-h2 {
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-  color: #5a3e2b;
-  border-bottom: 2px solid #ddd;
-  margin-top: 30px;
-  padding-bottom: 5px;
+/* Style des sections */
+main section {
+  margin-bottom: 50px;
 }
 
-/* Liens */
-a {
-  color: #5a3e2b;
-  text-decoration: none;
-  border-bottom: 1px dotted #5a3e2b;
-  transition: color 0.3s, border-bottom-color 0.3s;
+main h2 {
+  font-size: 2rem;
+  color: #6A7F49; /* Vert olive pour les titres */
+  margin-bottom: 25px;
+  border-bottom: 3px solid #F4A261; /* Corail pâle pour un accent doux */
+  display: inline-block;
+  padding-bottom: 10px;
 }
 
-a:hover {
-  color: #d17b47; /* Couleur chaude pour l'effet de survol */
-  border-bottom-color: #d17b47;
+main p,
+main ul {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #4A5568; /* Gris foncé pour le texte */
 }
 
-/* Liste */
-ul {
-  padding-left: 20px;
+main ul {
+  padding-left: 30px;
   list-style: disc;
 }
 
-li {
-  margin-bottom: 10px;
+main li {
+  margin-bottom: 15px;
 }
 
-/* Pied de page */
+/* Style pour le changelog */
+section#changelog {
+  background: #F7FAFC; /* Gris clair pour le changelog */
+  padding: 30px;
+  border: 1px solid #E2E8F0; /* Gris très clair pour les bordures */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+section#changelog h2#changelogTitle {
+  font-size: 1.7rem;
+  color: #6A7F49; /* Vert olive pour la cohérence */
+  margin-bottom: 15px;
+}
+
+section#changelog ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section#changelog li {
+  padding: 15px 0;
+  border-bottom: 1px solid #E2E8F0;
+  color: #4A5568;
+}
+
+section#changelog li:last-child {
+  border-bottom: none;
+}
+
+/* Style pour le footer */
 footer {
   text-align: center;
-  padding: 10px 0;
-  background-color: #2e2115;
-  color: #fff;
-  font-size: 0.9rem;
-  margin-top: 20px;
+  background: #6A7F49; /* Vert olive pour le footer */
+  color: #ffffff;
+  padding: 20px 0;
+  font-size: 1rem;
+  border-top: 10px solid #A29B9B; /* Gris chaud pour le contraste */
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Ombre subtile */
 }
 
-/* Changelog */
-#changelog ul {
-  background-color: #f9f8f6; /* Fond léger pour démarquer */
-  border-left: 4px solid #5a3e2b;
-  padding: 10px 15px;
-  border-radius: 5px;
+footer p#createdBy {
+  margin: 0;
 }
 
-/* Effets spéciaux */
-main p, main li {
-  text-indent: 20px; /* Indentation pour un style manuscrit */
+/* Ajout de styles responsives */
+@media (max-width: 600px) {
+  header h1#title {
+    font-size: 2.2rem;
+  }
+
+  header p#intro {
+    font-size: 1rem;
+  }
+
+  main h2 {
+    font-size: 1.6rem;
+  }
+
+  header button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  main {
+    padding: 25px 15px;
+  }
 }
 
-/* Effet parchemin pour le fond des sections */
-main {
-  background-image: linear-gradient(to bottom, #fdfcf8, #f4f1ea);
-}
-
-/* Ajout de coins arrondis aux images */
-img {
-  max-width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}

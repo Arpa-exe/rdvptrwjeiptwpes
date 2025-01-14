@@ -34,6 +34,18 @@ const translations = {
     theory3: "Una civilización olvidada: Evidencias de una civilización avanzada que dejó una huella imborrable en la región.",
     changelogTitle: "Registro de cambios",
     createdBy: "Creado por Laro1602"
+  },
+  ar: {
+    title: "سر rdvptrwjeiptwpes",
+    intro: "حدث تاريخي غامض ورائع، محاط بالأساطير والألغاز.",
+    aboutTitle: "ما هو rdvptrwjeiptwpes؟",
+    aboutText: "يعد rdvptrwjeiptwpes حدثًا تاريخيًا حدث عام 1325 في وادي منعزل. ويقال إن هذا الحدث، الذي يوصف في كثير من الأحيان بأنه رائع، قد أخل بالتوازن الاجتماعي والسياسي والبيئي في المنطقة.",
+    theoriesTitle: "نظريات حول rdvptrwjeiptwpes",
+    theory1: "التدخل الإلهي: يعتقد البعض أنه كان من فعل الآلهة لمعاقبة أو مكافأة سكان الوادي.",
+    theory2: "ظاهرة طبيعية غير مفسرة: انفجار بركاني أو زلزال أو حدث مناخي شديد يمكن أن يفسر القصص.",
+    theory3: "حضارة منسية: دليل على حضارة متقدمة تركت بصمة لا تمحى في المنطقة.",
+    changelogTitle: "تغيير السجل",
+    createdBy: "تم إنشاؤها بواسطة لارو1602"
   }
 };
 

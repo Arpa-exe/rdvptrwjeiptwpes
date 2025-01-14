@@ -22,6 +22,18 @@ const translations = {
     theory3: "A forgotten civilization: Evidence of an advanced civilization that left an indelible mark on the region.",
     changelogTitle: "Changelog",
     createdBy: "Created by Laro1602"
+  },
+  spa: {
+    title: "El misterio de rdvptrwjeiptwpes",
+    intro: "Un acontecimiento histórico misterioso y fascinante, rodeado de leyendas y enigmas.",
+    aboutTitle: "¿Qué es rdvptrwjeiptwpes?",
+    aboutText: "El rdvptrwjeiptwpes es un hecho histórico que ocurrió en 1325 en un valle apartado. Se dice que este evento, a menudo descrito como fantástico, alteró el equilibrio social, político y ambiental de la región.",
+    theoriesTitle: "Teorías sobre rdvptrwjeiptwpes",
+    theory1: "Intervención divina: Algunos creen que fue un acto de los dioses para castigar o recompensar a los habitantes del valle.",
+    theory2: "Un fenómeno natural inexplicable: una erupción volcánica, un terremoto o un fenómeno climático extremo podrían explicar los cuentos.",
+    theory3: "Una civilización olvidada: Evidencias de una civilización avanzada que dejó una huella imborrable en la región.",
+    changelogTitle: "Registro de cambios",
+    createdBy: "Creado por Laro1602"
   }
 };
 

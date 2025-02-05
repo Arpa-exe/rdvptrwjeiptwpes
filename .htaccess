@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+</IfModule>
+
+RewriteCond %{HTTP_HOST} ^www.laro1602.netlify.app [NC]
+RewriteRule (.*) https://laro1602.netlify.app/$1 [L,R=301]

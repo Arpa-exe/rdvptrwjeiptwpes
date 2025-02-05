@@ -33,7 +33,7 @@ header p#intro {
   color: #F4A261; /* Corail pâle pour un accent lumineux */
 }
 
-header button {
+button {
   background: #A29B9B; /* Gris chaud pour les boutons */
   color: #ffffff;
   border: none;
